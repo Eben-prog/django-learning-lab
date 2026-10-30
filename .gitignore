@@ -1,0 +1,20 @@
+# Secrets and local config
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+staticfiles/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
